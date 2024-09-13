@@ -1,13 +1,13 @@
-name: Cron
+name: "Cron #4"
 
 on:
   schedule:
-    - cron:  '* * * * *'
+    - cron:  '30/1 * * * *'
   workflow_dispatch:
 
 
 jobs:
-  cron:
+  cron4:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-node@v4

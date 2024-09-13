@@ -31,14 +31,3 @@ updates:
       prefix: fix
       prefix-development: chore
       include: scope
-
-  # Fetch and update latest `submodules` packages
-  - package-ecosystem: gitsubmodule
-    schedule:
-      interval: "daily"
-      time: '04:30'
-    directory: /
-    reviewers:
-      - zakarialounes
-    assignees:
-      - zakarialounes
