@@ -1,0 +1,15 @@
+{
+  "name": "cron-jobs",
+  "version": "1.0.0",
+  "description": "Cron Jobs",
+  "scripts": {
+    "jobs": "npx playwright test --project=cron"
+  },
+  "author": "Zakaria Lounes",
+  "dependencies": {
+    "ts-node": "^10.9.2",
+    "@playwright/test": "^1.47.0",
+    "playwright": "^1.47.0",
+    "playwright-core": "^1.47.0"
+  }
+}
