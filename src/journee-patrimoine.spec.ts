@@ -10,6 +10,6 @@ test("Journées du patrimoine disponible ?", async ({ page, baseURL }) => {
       .locator(
         "#first-page-actualities > ul:nth-child(2) > li:nth-child(1) > h3",
       )
-      .locator("text=Commémoration de la libération du Havre."),
+      .locator("text=MERCI à nos Champions !"),
   ).toBeVisible();
 });
